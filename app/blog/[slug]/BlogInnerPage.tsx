@@ -116,39 +116,39 @@ export default function BlogInnerPage({
 
               <div className="flex items-center gap-2 ml-auto">
                 <a
-                  href={`https://twitter.com/intent/tweet?url=${enc}&text=${encTitle}`}
+                  href={`https://twitter.com/intent/tweet`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Share on X"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.open(`https://twitter.com/intent/tweet?url=${encodeURIComponent(getPageUrl())}&text=${encTitle}`, "_blank", "noopener,noreferrer");
+                    window.open(`://twitter.com/intent/tweet?url=${encodeURIComponent(getPageUrl())}&text=${encTitle}`, "_blank", "noopener,noreferrer");
                   }}
                   className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white/70 hover:bg-sky-500 hover:text-white hover:scale-110 transition-all duration-200"
                 >
                   <RiTwitterXFill size={13} />
                 </a>
                 <a
-                  href={`https://www.facebook.com/sharer/sharer.php?u=${enc}`}
+                  href={`://www.facebook.com/sharer/sharer.php?u=${enc}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Share on Facebook"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(getPageUrl())}`, "_blank", "noopener,noreferrer");
+                    window.open(`://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(getPageUrl())}`, "_blank", "noopener,noreferrer");
                   }}
                   className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white/70 hover:bg-blue-600 hover:text-white hover:scale-110 transition-all duration-200"
                 >
                   <Facebook size={13} />
                 </a>
                 <a
-                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${enc}`}
+                  href={`://www.linkedin.com/sharing/share-offsite/?url=${enc}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Share on LinkedIn"
                   onClick={(e) => {
                     e.preventDefault();
-                    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(getPageUrl())}`, "_blank", "noopener,noreferrer");
+                    window.open(`://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(getPageUrl())}`, "_blank", "noopener,noreferrer");
                   }}
                   className="flex items-center justify-center w-7 h-7 rounded-full bg-white/10 text-white/70 hover:bg-blue-500 hover:text-white hover:scale-110 transition-all duration-200"
                 >
