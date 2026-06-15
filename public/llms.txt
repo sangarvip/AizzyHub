@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+
+Website: https://www.aizzyhub.com
+Content-Type: Finance, Investing, AI, Fintech
+
+# AizzyHub — Free Finance & Investing Guides
+# Topics: Personal Finance, Stock Market, Mutual Funds, AI in Finance, Fintech
+# Audience: Beginner to intermediate investors in US, UK, Canada, Australia
+# Language: English
+# Updated: 2026
